@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  font-family: "Times New Roman";
+  background-color: #1697a8;
+  color: #000;
+}
+
+header {
+  background-color: #000;
+  border-bottom: 2px solid #000;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  flex-grow: 1;
+}
+
+p {
+  white-space: pre-line;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #117380;
+}
+
+/* Logo styles */
+img {
+  float: left;
+  margin-right: 20px;
+}
+
+section {
+  width: 70%
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.one,.two,.three,.four {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 30px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.one img,.two img,.three img,.four img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  border: 3px solid black;
+}
+
+i.fa-brands {
+  margin: 0px 10px 0px 0px;
+  font-size: 24px;
+  color: black;
+}
+footer {
+  text-align: center;
+}
+
+
+
